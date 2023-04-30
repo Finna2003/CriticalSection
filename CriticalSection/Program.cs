@@ -13,7 +13,7 @@ namespace CriticalSection
             int t = Convert.ToInt32(Console.ReadLine());
             Thread[] threads = new Thread [t];
 
-            Stopwatch sw = new Stopwatch();//--------------------время- доделать
+            Stopwatch sw = new Stopwatch();
             sw.Start();
             for (int i=0; i< t; i++)
             {
